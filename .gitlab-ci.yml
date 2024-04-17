@@ -48,6 +48,7 @@ e2e-test: # to be implemented
   script:
     - echo "Running e2e tests..."
     - docker-compose -f docker-compose.yml up -d 
+    - npm install mongodb
     - node seeddb.js
     - sleep 10
     - npm i
