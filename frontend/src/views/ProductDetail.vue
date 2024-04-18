@@ -20,7 +20,7 @@
           <p class="mb-0">Location: {{ product.location }}</p>
           <p>Items Sold: {{ product.seller.itemsSold }}</p>
         </div>
-        <b-button variant="primary" @click="showModal = true" class="mt-3">Contact Seller</b-button>
+        <!-- <b-button variant="primary" @click="showModal = true" class="mt-3">Contact Seller</b-button> -->
       </div>
     </b-col>
   </b-row>
